@@ -20,15 +20,15 @@ eureka:
       defaultZone: http://localhost:8761/eureka
 
 node:
-   cloud-server:
+   cloudServer:
       host: "192.168.3.12"
       port: "80"
-   core-engine:
+   coreEngine:
       host: "192.168.3.12"
       ports:
-        stream-control: 10600
+        streamControl: 10600
         data: 10688
-        device-management: 10689
-        device-control: 10604
-        arbiter-management: 10771
+        deviceManagement: 10689
+        deviceControl: 10604
+        arbiterManagement: 10771
         config: 10687
