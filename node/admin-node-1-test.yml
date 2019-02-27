@@ -18,3 +18,17 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
+
+node:
+   cloud-server:
+      host: "192.168.3.12"
+      port: "80"
+   core-engine:
+      host: "192.168.3.12"
+      ports:
+        stream-control: 10600
+        data: 10688
+        device-management: 10689
+        device-control: 10604
+        arbiter-management: 10771
+        config: 10687
