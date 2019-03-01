@@ -7,6 +7,8 @@ spring:
     mongodb:
       uri: mongodb://platform:platform@47.107.44.46:20001/platform
 management:
+  security:
+    enable: false
   endpoints:
      web:
        exposure:
@@ -21,7 +23,7 @@ eureka:
 
 node:
    cloudServer:
-      host: "192.168.3.12"
+      host: "test"
       port: "80"
    coreEngine:
       host: "192.168.3.12"
