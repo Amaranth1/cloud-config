@@ -24,7 +24,8 @@ eureka:
 
 node:
    cloudServer:
-      host: "192.168.3.12"
+      #host: "192.168.3.12"
+      host: "test refresh"
       port: "80"
    coreEngine:
       host: "192.168.3.12"
