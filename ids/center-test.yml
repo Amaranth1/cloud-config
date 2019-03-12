@@ -6,9 +6,9 @@ spring:
 eureka:
   client:
     server:
-        waitTimeInMsWhenSyncEmpty: 0
-    register-with-eureka: false
-    fetchRegistry: false
+        //waitTimeInMsWhenSyncEmpty: 0
+    //register-with-eureka: false
+    //fetchRegistry: false
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
